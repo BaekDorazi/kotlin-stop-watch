@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         fabPlayPause.setOnClickListener {
             isRunning = !isRunning
 
-            if (!isRunning) {
+            if (isRunning) {
                 start()
             } else {
                 pause()
