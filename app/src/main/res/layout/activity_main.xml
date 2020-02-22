@@ -33,6 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
+            android:backgroundTint="#FFA96B"
             app:srcCompat="@drawable/ic_refresh_black_24dp" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -41,6 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
+            android:backgroundTint="#509A73"
             app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
 
         <Button
@@ -49,6 +51,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
+            android:background="#00261A"
+            android:textColor="#FFFFFF"
             android:text="랩 타임" />
 
     <ScrollView
@@ -59,6 +63,7 @@
         android:layout_centerVertical="true">
 
         <LinearLayout
+            android:id="@+id/lapLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" />
